@@ -11,6 +11,7 @@ An LSPDFR like multiplayer gamemod
 - [] Arrest missions, murders, robbery
 - [] Stop vehicles
 - [x] Police garage
+- [x] Police armory
 - [] Police equipment
 
 ## Instructions
