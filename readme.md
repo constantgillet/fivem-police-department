@@ -1,22 +1,29 @@
 # Fivem Police department
-An LSPDFR like multiplayer gamemod
+An LSPDFR like multiplayer gamemode for fivem
 
 ## Dependencies
-- Basic resources of fivem servers
+- Basic resources of fivem servers like the maps, spawnmanager ...
 - [Native UI](https://github.com/FrazzIe/NativeUILua "Google's Homepage")
 
 
 ## Features
-- [] Create a profile
-- [] Arrest missions, murders, robbery
-- [] Stop vehicles
+- [ ] Create a profile
+- [ ] Arrest missions, murders, robbery
+- [ ] Stop vehicles
 - [x] Police garage
 - [x] Police armory
-- [] Police equipment
+- [ ] Police equipment
 
 ## Instructions
 
 Install dependencies and files in the resources folder of your fivem server
+
+## Contributing
+
+Contributions are appreciated, your are free to add, propose new features and more. Read the [Contributing.md](https://github.com/FrazzIe/NativeUILua "Contributing.md") to know more.
+
+### Contributors list
+- You maybe ?
 
 ## Licence
 
