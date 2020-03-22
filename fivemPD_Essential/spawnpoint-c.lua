@@ -1,3 +1,5 @@
+isFirstSpawn = true 
+
 AddEventHandler("playerSpawned", function()
 
     -- Give the basic player model
@@ -15,5 +17,18 @@ AddEventHandler("playerSpawned", function()
 
     SetPedDefaultComponentVariation(GetPlayerPed(PlayerId()))
 
-    StartPlayerTeleport(PlayerId(), -220.98, -1080.87, 29.29, 77, true, true, true)
+    if isFirstSpawn == true then
+
+        StartPlayerTeleport(PlayerId(), -220.98, -1080.87, 29.29, 77, true, true, true)
+
+        --Display messages  when player join the game for the first time
+        displayJoinMessages()
+
+        isFirstSpawn = false
+
+    else 
+        -- Teleport to the nearest hospital
+        StartPlayerTeleport(PlayerId(), 305.03, -1433.3, 29.8, 154.64, true, true, true)
+    end
 end)
+

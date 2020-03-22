@@ -70,4 +70,6 @@ function spawnCar(car)
     local vehicle = CreateVehicle(car, 442.81, -1019.61, 28.24, 90.89, true, false)
     SetEntityAsMissionEntity(vehicle, true, true)
     SetVehicleNumberPlateText(vehicle, "LSPD911")
+
+    notify("You spawned a car")
 end

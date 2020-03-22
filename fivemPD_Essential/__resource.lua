@@ -4,6 +4,7 @@ client_scripts {
     "spawnpoint-c.lua",
     "blips-c.lua",
     "generalFunctions-c.lua",
-    "joinMessages-c.lua"
+    "joinMessages-c.lua",
+    "wantedLevel-c.lua"
 } 
 
