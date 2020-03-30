@@ -4,5 +4,8 @@ function displayJoinMessages()
         notify("Welcome to fivem PD")
         Citizen.Wait(1000)
         notify("This gamemod is in development")
+        Citizen.Wait(1000)
+        notify("Help us to develop the project on ~b~ github ")
+        notify("~b~ github.com/constantgillet/fivem-police-department/")
     end)  
 end
